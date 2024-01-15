@@ -4,13 +4,13 @@ using namespace std;
 class Festival {
     int dayCount, teamCount;
     int *costForEachDay;
-    long double minimumAverageRentCost;
+    double minimumAverageRentCost;
 
 public:
     Festival() {
         dayCount = teamCount = 0;
         costForEachDay = nullptr;
-        minimumAverageRentCost = 100.0L;
+        minimumAverageRentCost = 100.0;
     }
 
     void setDayCount(int dayCount) {
